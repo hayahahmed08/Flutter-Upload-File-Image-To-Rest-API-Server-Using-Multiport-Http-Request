@@ -35,6 +35,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  modal_progress_hud_nsn: ^0.5.1
+  http: ^1.2.2  #Handles making HTTP requests (GET, POST etc)
+  image_picker: ^1.1.2  #Enables users to pick images from their device's gallery or camera.
 
 dev_dependencies:
   flutter_test:
