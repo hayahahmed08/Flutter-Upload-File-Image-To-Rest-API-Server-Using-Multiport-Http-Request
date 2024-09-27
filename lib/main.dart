@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:image_upload/upload_image.dart.dart';
+import 'package:image_upload/upload_image.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const SignUpScreen(),
+      home: const UploadImage(),
     );
   }
 }
